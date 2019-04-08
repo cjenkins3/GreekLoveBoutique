@@ -1,0 +1,233 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+html, h1, h2, h3, h4, h5, p {
+    font-family: 'Bree Serif', serif;
+}
+#mainNavBar {
+    background-color: rgb(216, 210, 210) !important;
+}
+#logo {
+    width: 15%;
+    margin-left: 10px;
+    margin-right: 8.5em;
+}
+/* #brand {
+    font-weight: bold;
+    font-family: 'Bree Serif', serif; 
+    padding-right: 9em;   
+} */
+.nav-link {
+    font-family: 'Bree Serif', serif;
+    margin-right: 2em;
+    font-size: 16pt;
+    color: black !important;
+}
+.nav-link:hover {
+    color: rgb(73, 72, 72) !important;
+}
+
+#shopCart {
+    margin-right: 3em;
+    color: black !important;
+}
+#shopCart:hover {
+    color: rgb(73, 72, 72) !important;
+
+}
+.carousel-inner {
+    width: 100% !important;
+    height: 50% !important;
+}
+
+/* ------ Shop Page Starts -------- */
+
+#rowOne {
+    margin-bottom: 2em;
+}
+#rowTwo {
+    margin-bottom: 2em;
+}
+#rowThree {
+    margin-bottom: 2em;
+}
+#rowFour {
+    margin-bottom: 5em;
+}
+.card {
+    top: 10%;
+    margin-left:12em;
+    box-shadow: 0 20px 40px rgba(0,0,0,.2);
+    text-align: center;
+
+}
+.card-body {
+    font-family: 'Bree Serif', serif;
+}
+.card-button {
+    margin-left: 4px;
+    background: rgb(59, 155, 147) !important;
+    border-color: rgb(59, 155, 147) !important;
+}
+
+
+/* --------Shop Page End --------- */
+
+/*  ---- Shipping/Return Policy Starts */
+
+.policy-section {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+/*  ---- Shipping/Return Policy Ends */
+
+
+
+/*------About/Contact Starts-------*/
+
+.about-title, .contact-title {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#contact-form {
+    box-shadow: 0 20px 40px rgba(0,0,0,.2);
+    padding: 5%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    width: 100%;
+    margin-left: 8em;
+}
+#aboutUs {
+    box-shadow: 0 20px 40px rgba(0,0,0,.2);
+    padding: 5%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    width: 100%;
+    margin-left: 8em;
+}
+
+.contact-area .form-control{
+    border: none;
+    border-bottom: 2px solid #a2a2a2;
+    box-shadow: none;
+    padding: 6px 0;
+    border-radius: 0;
+    margin-bottom: 30px;
+}
+
+.contact-area textarea.form-control{
+    border:2px solid #a2a2a2;
+    padding: 6px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+.single-contact h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.btn.btn-send {
+    background: rgb(11, 122, 113);
+    color: #ffffff;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+/*-------- About/Contact Ends----------- */
+
+/*---Cart Starts---- */
+
+#checkout-button {
+    background: rgb(59, 155, 147) !important;
+    border-color: rgb(59, 155, 147) !important;
+}
+.btn-danger {
+    margin-right: 3em;
+}
+.cart-items {
+    float: right;
+}
+.cart-quantity {
+    width: 35%;
+}
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+.cart-total-price {
+    font-weight: bold;
+}
+
+/* ----Cart Ends----*/
+
+
+/*-------------- Footer area starts -------------*/
+
+.footer-area {
+    background-color: rgb(216, 210, 210) !important;
+    padding: 30px 0;
+    font-family: 'Bree Serif', serif;
+
+}
+#instagram {
+    font-size: 25px;
+    color: black;
+}
+/*--------------- Footer area ends -------------*/
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }

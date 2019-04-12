@@ -39,6 +39,7 @@ html, h1, h2, h3, h4, h5, p {
     margin-right: 3em;
     color: black !important;
     font-size: 14pt;
+    font-family: 'Bree Serif', serif !important;
 }
 #shopCart:hover {
     color: rgb(73, 72, 72) !important;
